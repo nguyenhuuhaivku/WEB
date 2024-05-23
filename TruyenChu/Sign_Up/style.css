@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Freeman&family=Poetsen+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  padding: 0;
+}
+.no-select {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+body {
+  background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form_sign_up {
+  text-align: center;
+  background-color: white;
+  border-radius: 5px;
+  width: 40%;
+  height: 100vh;
+  box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px,
+    rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+.title {
+  letter-spacing: 5px;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 3em;
+  font-family: "Poetsen One", sans-serif;
+  margin: 10% 0px;
+  background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.form_input {
+  margin: 40px auto;
+}
+.field {
+  width: 60%;
+  margin: 10px auto;
+}
+.title_username,
+.title_password,
+.title_reenter_password,
+.title_email,
+.title_phone {
+  font-size: small;
+  background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: left;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 5px;
+}
+.field_username,
+.field_password,
+.field_repassword,
+.field_email,
+.field_phone {
+  width: 100%;
+  height: 25px;
+  border: none;
+  border-bottom: 1px solid rgb(205, 205, 205);
+  outline: none;
+  margin-bottom: 5%;
+}
+.btn_sign_up {
+  display: inline-block;
+  margin: 0 auto;
+  margin-top: 30px;
+  background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+  width: 60%;
+  padding: 6px;
+  border-radius: 15px;
+  outline: none;
+  border: none;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 2px;
+}
+.btn_sign_up:hover {
+  background: linear-gradient(to right,#12c2e9, #c471ed, #f64f59);
+  color: linen;
+  cursor: -moz-grab;
+}
+i {
+  color: blue;
+}
+a{
+    text-decoration: none;
+}

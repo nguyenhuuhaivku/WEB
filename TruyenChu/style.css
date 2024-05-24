@@ -313,7 +313,7 @@ footer .copyright {
 }
 footer .copyright .logo {
   color: var(--red);
-  font-size: 2.1rem;
+  font-size: 2rem;
   font-weight: bolder;
 }
 footer .copyright p {
@@ -324,15 +324,10 @@ footer .copyright p {
 
 /* footer */
 footer {
-  background-image: linear-gradient(-60deg, #6868ac 0%, #cf9893 100%);
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
+    color: white;
 }
-footer .content p {
-  font-weight: normal;
-  font-size: 1.6rem;
-  margin-left: 5.5rem;
-  padding-top: 2rem;
-}
-/* media query */
+
 @media (max-width: 991px) {
   html {
     font-size: 55%;

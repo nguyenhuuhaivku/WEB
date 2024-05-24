@@ -161,11 +161,8 @@ header .navbar a:hover {
   animation: slideshow 25s infinite linear;
   display: block;
   text-decoration: none;
-  border-radius: 20px; 
+  border-radius: 20px;
 }
-
-
-
 
 .slide:nth-child(1) {
   animation-delay: 0s;
@@ -285,26 +282,44 @@ header .navbar a:hover {
 
 /* category */
 .category {
-  padding: 5rem;
+  padding: 5rem 0;
 }
 
-.category .box {
-  width: 180px;
-  height: 90px;
-}
-
-.category .content h3 {
+.category .heading h1 {
   font-size: 1.7rem;
   color: #ffffff;
   text-transform: uppercase;
   text-align: center;
 }
-.category .content P {
-  font-size: 1.2rem;
-  color: #fff;
-  text-decoration: none;
+
+.category .title-tutien {
+  font-size: 3.5rem;
+  font-style: italic;
+  font-weight: bold;
+  background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.category .tutien {
+  margin-left: 7rem;
+  width: 17rem;
+  position: relative;
+}
+.category .title-tutien::after {
+  content: "";
+  position: absolute;
+  background-color: rgb(79, 79, 79);
+
+  width: 75%;
+  bottom: -1rem;
+  left: 0;
+  height: 0.5rem;
 }
 
+.category .list_card {
+  margin: 5rem 0;
+}
 /* Footer */
 footer .copyright {
   display: flex;
@@ -324,8 +339,8 @@ footer .copyright p {
 
 /* footer */
 footer {
-    background-image: linear-gradient(to right, #434343 0%, black 100%);
-    color: white;
+  background-image: linear-gradient(to right, #434343 0%, black 100%);
+  color: white;
 }
 
 @media (max-width: 991px) {
